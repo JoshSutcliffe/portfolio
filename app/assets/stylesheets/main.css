@@ -34,5 +34,11 @@ header, main, footer, nav {
 }
 
 .portfolio-image {
-  max-width: 50%;
+  max-width: 47.5%;
+  padding-right: 5%;
+}
+
+.portfolio-text {
+  max-width: 47.5%;
+  float: right;
 }
