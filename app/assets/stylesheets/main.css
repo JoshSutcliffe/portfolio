@@ -33,12 +33,12 @@ header, main, footer, nav {
     min-height: 100%;
 }
 
-.portfolio-image {
+.img-left {
   max-width: 47.5%;
   padding-right: 5%;
 }
 
-.portfolio-text {
+.portfolio-right {
   max-width: 47.5%;
   float: right;
 }
