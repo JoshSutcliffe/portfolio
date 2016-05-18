@@ -9,6 +9,11 @@ header, main, footer, nav {
  }
 }
 
+.container > .row {
+  margin-bottom: 0px;
+}
+
+/* INDEX PAGE */
 .parallax-container {
     position: relative;
     overflow: hidden;
@@ -33,6 +38,7 @@ header, main, footer, nav {
     min-height: 100%;
 }
 
+/* PORTFOLIO PAGE */
 .img-left {
   max-width: 47.5%;
   padding-right: 5%;
