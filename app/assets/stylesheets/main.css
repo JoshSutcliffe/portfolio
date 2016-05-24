@@ -45,5 +45,9 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  margin: 0px !IMPORTANT;
+}
+
+.footer-row {
+  margin-bottom: 0px !IMPORTANT;
 }
