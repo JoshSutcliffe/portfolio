@@ -53,9 +53,12 @@ footer.page-footer {
 }
 
 /* PORTFOLIO PAGE */
-.img-left {
+/*.img-left {
   max-width: 47.5%;
   padding-right: 5%;
+}*/
+.hideme {
+  opacity: 0;
 }
 
 .portfolio-right {
