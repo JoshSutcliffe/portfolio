@@ -1,50 +1,49 @@
-/* offsetting screen to allow for side-nav bar */
-header, main, footer, nav {
-  padding-left: 240px;
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
 @media only screen and (max-width : 992px) {
-  header, main, footer, nav {
-    padding-left: 0;
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
   }
 }
 
-.container > .row {
-  margin-bottom: 0px;
-}
-
-/* INDEX PAGE */
-.parallax-container {
-    position: relative;
-    overflow: hidden;
-    height: 500px;
-}
-
-.parallax {
-    position: absolute;
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+  }
 }
 
-.parallax img {
-    display: none;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
 }
 
-/* PORTFOLIO PAGE */
-.img-left {
-  max-width: 47.5%;
-  padding-right: 5%;
-}
-
-.portfolio-right {
-  max-width: 47.5%;
-  float: right;
+footer.page-footer {
+  margin: 0;
 }
