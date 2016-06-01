@@ -1,12 +1,3 @@
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
-
 /* Every time the window is scrolled ... */
 $(window).scroll( function(){
 
@@ -23,3 +14,12 @@ $(window).scroll( function(){
     };
   });
 });
+
+(function($){
+  $(function(){
+
+    $('.parallax').parallax();
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
