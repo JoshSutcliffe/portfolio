@@ -41,9 +41,28 @@ p {
   }
 }
 
+@media (min-width: 992px) {
+  .badge {
+    display: none
+  }
+  .chars {
+    display: inline-block
+  }
+}
+
+@media (max-width: 991px) {
+  .badge {
+    display: inline-block
+  }
+  .chars {
+    display: none
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
